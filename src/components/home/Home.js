@@ -7,10 +7,12 @@ import Hero from './Hero'
 const Home = () => {
   return (
     <div>
-        <Navbar/>
-        <Hero/>
-        <CryptoCarousel/>
+      <Navbar />
+      <div className='pt-[77px]'>
+        <Hero />
+        <CryptoCarousel />
         {/* <Charts/> */}
+      </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import Hero2 from "../images/hand.PNG"
 
 const Hero = () => {
     return (
-        <div className='h-full max-w-[1420px] m-auto w-full bg-[#000207] text-white'>
+        <div className='h-full  max-w-[1420px] m-auto w-full bg-[#000207] text-white'>
             <div className='hero_links absolute left-[-100px] bottom-[180px]  origin-bottom -rotate-90'>
                 <div className='flex side-links items-center '>
                     <li className='list-none lg:ml-4 ml-1 mr-1 lg:mr-4'>LinkedIn</li>
