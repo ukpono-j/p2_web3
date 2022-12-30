@@ -45,7 +45,7 @@ const CryptoCarousel = () => {
     return (
         <div className='crypto-container bg-[#010307] h-[430px] p-4 md:p-0'>
             <h1>Top Crypto Now</h1>
-            <OwlCarousel items="6" autoPlay dots className='owl-theme'  {...options} loop margin={10} >
+            <OwlCarousel items="6" autoPlay dots className='owl-theme'  {...options}  margin={10} >
                 <div className='item pl-3 pr-3 pt-6 pb-3'>
                     <div className='item-title h-auto flex items-center w-full'>
                         <div className='item-icon w-11 h-11 rounded-xl'>
@@ -191,10 +191,10 @@ const CryptoCarousel = () => {
                         <button>Buy Coin</button>
                     </div>
                 </div>
-                {/* <div class='item pl-3 pr-3 pt-6 pb-3'>
+                <div class='item pl-3 pr-3 pt-6 pb-3'>
                     <div className='item-title h-auto flex items-center w-full'>
                         <div className='item-icon w-11 h-11 rounded-xl'>
-                            <AiOutlineDash/>
+                            <SiDash/>
                         </div>
                         <div className='token-title pl-2'>
                             <h4>Dash<span>(Dash)</span></h4>
@@ -219,7 +219,7 @@ const CryptoCarousel = () => {
                     <div className='items-btn-container mt-10  w-full h-auto'>
                         <button>Buy Coin</button>
                     </div>
-                </div> */}
+                </div>
 
 
             </OwlCarousel>;

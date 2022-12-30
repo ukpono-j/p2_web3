@@ -54,7 +54,7 @@ export default class Example extends PureComponent {
   render() {
     return (
       <ResponsiveContainer width="100%" height="100%">
-        <LineChart width={300} height={100} data={data}>
+        <LineChart width="100%" height={130} data={data}>
           <Line type="monotone" dataKey="pv" stroke="#0BB555" strokeWidth={2} />
         </LineChart>
       </ResponsiveContainer>
