@@ -1,0 +1,42 @@
+.Register-form h1{
+    text-align: center;
+    padding: 20px 30px 10px 30px;
+    font-family: "Red Rose";
+    font-size: 24px;
+}
+.Register-form {
+    border-radius: 10px;
+    padding: 10px 17px 30px 17px;
+    background-color: #000207;
+    border: 1px solid rgb(105, 125, 127);
+}
+.Register-form h4{
+    padding: 10px 0px;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(223, 238, 241);
+}
+.Register-form div > input{
+    width: 100%;
+    padding-left: 12px;
+    font-family: "Poppins";
+    font-size: 12px;
+    height: 37px;
+    background-color: transparent;
+    border: 1px solid rgb(105, 125, 127);
+    border-radius: 8px;
+}
+.Register-form div > input::placeholder{
+    color: rgb(105, 125, 127);
+}
+.Register-form div > button{
+    width: 100%;
+    /* border: 1px solid  white; */
+    margin-top: 20px;
+    height: 37px;
+    border-radius: 8px;
+    font-family: "Poppins";
+    font-size: 13px;
+    background-color: #092326;
+}

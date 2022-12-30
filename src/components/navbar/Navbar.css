@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Merriweather:wght@300;400;700&family=Mulish:wght@500;600;700;800&family=Poppins:wght@300;400;500&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Red+Rose:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.nav {
+  height: auto;
+  width: 100%;
+  background-color: #021214;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.nav > .nav-header {
+  display: flex;
+  /* border: 2px dodgerblue solid; */
+  align-items: center;
+  margin-left: 80px;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 21px;
+  font-family: 'Red Rose';
+  font-weight: 800;
+  color: #fff;
+  outline: none;
+  /* border: 1px solid #eee; */
+  padding: 0px 0px 0px 0px;
+}
+
+.nav > .nav-btn {
+    cursor: pointer;
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  font-family: "Poppins";
+  margin-right: 80px;
+}
+
+.nav > .nav-links > .nav-link {
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+.nav-btn1{
+    padding: 6px 10px;
+    border: 2px solid rgb(105, 125, 127);
+    border-radius: 8px;
+    margin: 0px 10px;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+.nav-btn2{
+    padding: 6px 15px;
+    background-color: rgb(163, 242, 126);
+    border: 2px solid rgb(163, 242, 126);
+    border-radius: 8px;
+    margin: 0px 10px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+@media (max-width: 950px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 18px;
+    /* border: 2px solid  red; */
+    /* top: 0px; */
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  /* .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  } */
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    border-radius: 3px;
+    height: 10px;
+    font-family: "Poppins";
+    border-top: 3px solid #eee;
+  }
+  .nav-btn1{
+    margin: 10px 10px;
+    max-width: 160px;
+}
+.nav-btn2{
+    margin: 10px 10px;
+    max-width: 160px;
+}
+  .nav > .nav-links {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #021214;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 76px;
+    left: 0px;
+  }
+  .nav > .nav-header {
+    margin-left: 20px;
+  }  
+  .nav > .nav-links > .nav-link {
+    display: block;
+    /* width: 100%; */
+    padding: 12px 19px;
+    border: 1px solid  red;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}

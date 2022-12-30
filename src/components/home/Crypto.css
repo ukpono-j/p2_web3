@@ -1,0 +1,105 @@
+.crypto-container .item{
+    transition: 2s ease;
+    /* border: 1px solid white; */
+    height: auto;
+    border-radius: 20px;
+    background-color: #090A15;
+    /* background-color: #021214; */
+    font-family: "Poppins";
+    position: relative;
+    color: #B3B5B6;
+}
+.items-btn-container{
+    display: none;
+    
+}
+.item:hover .items-btn-container{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+.items-btn-container button{
+    padding: 11px 40px;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    background-color: #8EFC8B;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 20px;
+}
+.crypto-container h1{
+    font-family: "Red Rose";
+    font-size: 37px;
+    color: #C3FFA6;
+    padding: 20px 80px;
+    font-weight: 700;
+}
+.token-title h4{
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.token-title span{
+    font-weight: 600;
+    color: #445357;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.item-icon{
+    border: 2px solid #272F29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #C5FEA7;
+}
+.item-subtitle{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 13px;
+    margin: 10px 0px;
+    color: #B3B5B6;;
+}
+.stock-area > div h5{
+    font-size: 12px;
+    font-weight: 500;
+}
+.stock-area > div p{
+    font-size: 10px;
+    color: #5A686C;
+}
+.rise{
+    height: 27px;
+    width: 27px;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 9px;
+    /* border: 1px solid white; */
+}
+.fall{
+    height: 27px;
+    width: 27px;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 9px;
+    /* border: 1px solid white; */
+}
+.token-chart{
+    border: 1ps solid #fff !important;
+}
+
+@media screen and (max-width: 684px){
+    .crypto-container h1{
+        font-size: 28px;
+        padding: 20px 20px;
+    }
+}
