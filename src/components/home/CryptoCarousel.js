@@ -43,7 +43,7 @@ const options = {
 
 const CryptoCarousel = () => {
     return (
-        <div className='crypto-container bg-[#010307] h-[430px] p-4 md:p-0'>
+        <div className='max-w-[1420px] m-auto crypto-container bg-[#010307] h-[430px] p-4 md:p-0'>
             <h1>Top Crypto Now</h1>
             <OwlCarousel items="6" autoPlay dots className='owl-theme - z-10'  {...options} margin={10} >
                 <div className='item pl-3 pr-3 pt-6 pb-3'>

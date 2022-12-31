@@ -2,6 +2,7 @@ import React from 'react'
 // import Charts from '../charts/Charts'
 import Navbar from '../navbar/Navbar'
 import CryptoCarousel from './CryptoCarousel'
+import CurrencyCalculator from './CurrencyCalculator'
 import Hero from './Hero'
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <div className='pt-[77px]'>
         <Hero />
         <CryptoCarousel />
+        <CurrencyCalculator/>
         {/* <Charts/> */}
       </div>
     </div>
