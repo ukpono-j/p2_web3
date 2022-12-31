@@ -1,0 +1,22 @@
+.current_bx h1{
+    font-family: "Red Rose";
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 46px;
+}
+.current_bx p{
+    font-size: 13px;
+    padding: 20px 0px;
+    font-family: "Poppins";
+}
+.current_bx button{
+    /* border: 1px solid #fff; */
+    padding: 10px 29px;
+    margin-top: 8px;
+    border-radius: 10px;
+    background-color: #A3F27E;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 14px;
+}
