@@ -130,7 +130,7 @@
   .nav > .nav-links > .nav-link {
     display: block;
     padding: 12px 19px;
-    border: 1px solid  red;
+    /* border: 1px solid  red; */
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
