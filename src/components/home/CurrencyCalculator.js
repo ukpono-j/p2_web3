@@ -10,7 +10,7 @@ const CurrencyCalculator = () => {
         <div className='cc h-auto w-full pl-[20px] lg:pl-[170px] lg:pr-[170px] pr-[20px] bg-[#010307] max-w-[1420px] m-auto  pt-0  sm:pt-8 pb-14'>
             <div className='w-full h-[auto] grid md:flex md:item-start text-white justify-between'>
                 <div className='current_bx pb-10 mt-2 mb-2 sm:pr-4 sm:mt-0 mb-4 sm:mb-0 w-full md:max-w-[480px] h-[auto]'>
-                    <h1 className='current-ff'>Bitcoin To Currency Calculator</h1>
+                    <h1 className='current-ff ffd'>Bitcoin To Currency Calculator</h1>
                     <p>
                         Contact information: Include your name, email address, and phone number.
                         Professional summary: A brief summary of your professional experience and skills.

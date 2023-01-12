@@ -82,8 +82,12 @@
     .cc{
         padding: 0px 30px !important;
     }
-    .current-ff h1{
-        font-size: 20px !important;
+    .current_bx .current-ff{
+        font-family: "Red Rose";
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 36px;
+        color: #B6F19A;
     }
 }
 @media  screen and (max-width: 607px){
