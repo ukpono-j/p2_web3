@@ -16,10 +16,6 @@ import { SiRipple } from "react-icons/si"
 const options = {
     // margin: 30,
     responsiveClass: true,
-    // nav: true,
-    // dots: false,
-    // autoplay: false,
-    // navText: ["Prev", "Next"],
     smartSpeed: 1000,
     responsive: {
         0: {
@@ -45,7 +41,7 @@ const CryptoCarousel = () => {
     return (
         <div className='max-w-[1420px] m-auto crypto-container bg-[#010307] h-[430px] p-4 md:p-0'>
             <h1>Top Crypto Now</h1>
-            <OwlCarousel items="6" autoPlay dots className='owl-theme - z-10'  {...options} margin={10} >
+            <OwlCarousel items="6" autoPlay dots className='owl-theme -z-10'  {...options} margin={10} >
                 <div className='item pl-3 pr-3 pt-6 pb-3'>
                     <div className='item-title h-auto flex items-center w-full'>
                         <div className='item-icon w-11 h-11 rounded-xl'>

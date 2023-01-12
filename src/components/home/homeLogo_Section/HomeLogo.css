@@ -1,0 +1,7 @@
+.home_logo .item{
+  height: auto;
+  width: 170px;
+}
+.home_logo .item img{
+    object-fit: contain;
+}

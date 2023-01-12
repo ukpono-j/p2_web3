@@ -1,16 +1,25 @@
-.current_bx h1{
+.current_bx .current-ff{
     font-family: "Red Rose";
     font-weight: 600;
     font-size: 37px;
     line-height: 46px;
+    color: #B6F19A;
+}
+.f h1{
+    font-size: 24px;
+    font-family: "Red Rose";
+}
+.current-new-container h6{
+    font-size: 13px;
+    font-family: "Poppins";
 }
 .current_bx p{
     font-size: 13px;
     padding: 20px 0px;
+    color: #5A6A6C;
     font-family: "Poppins";
 }
 .current_bx button{
-    /* border: 1px solid #fff; */
     padding: 10px 29px;
     margin-top: 8px;
     border-radius: 10px;
@@ -19,4 +28,66 @@
     font-weight: 600;
     font-family: "Poppins";
     font-size: 14px;
+}
+.cal-container{
+    width: 100%;
+}
+.current-side{
+    border-radius: 100px;
+    border: 2px solid #7B7953;
+}
+.cal-container .cal_select_Area select{
+    height: 37px;
+    font-family: "Poppins";
+    font-weight: 500;
+    /* border-radius: 4px; */
+    outline: none;
+    max-width: 60px;
+    padding-left: 4px;
+    font-size: 13px;
+    color: #fff;
+    border-bottom: 1px solid #5A6A6C;
+    background-color: #010307;
+}
+.cal-container .cal_input_area{
+    border-bottom: 1px solid #5A6A6C;
+    outline: none;
+    width: 100%;
+}
+.cal-container .cal_input_area input{
+    width: 100%;
+    color: #C3C6C8;
+    outline: none;
+    font-size: 14px;
+    padding-left: 10px;
+    /* background-color: #021214; */
+    font-weight: 500;
+    font-family: "Poppins";
+    height: 37px;
+    /* background-color: transparent; */
+    background-color: transparent;
+
+}
+@media screen and (max-width: 1239px){
+    .cc{
+        padding: 0px 100px !important;
+    }
+}
+@media  screen and (max-width: 990px){
+    .cc{
+        padding: 0px 50px !important;
+    }
+}
+@media  screen and (max-width: 700px){
+    .cc{
+        padding: 0px 30px !important;
+    }
+    .current-ff h1{
+        font-size: 20px !important;
+    }
+}
+@media  screen and (max-width: 607px){
+    .cc{
+        padding: 0px 20px !important;
+    }
 }

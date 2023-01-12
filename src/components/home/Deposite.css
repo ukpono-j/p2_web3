@@ -1,0 +1,31 @@
+.deposite-text h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: #B6F19A;
+    font-family: "Red Rose";
+    line-height: 50px;
+}
+.deposite-text p{
+    font-family: "Poppins";
+    font-size: 12px;
+    color: #556366;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.deposite-text button{
+    padding: 10px 29px;
+    margin-top: 8px;
+    border-radius: 10px;
+    background-color: #A3F27E;
+    color: #000;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 13px;
+}
+
+@media screen and (max-width: 700px){
+    .deposite-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
