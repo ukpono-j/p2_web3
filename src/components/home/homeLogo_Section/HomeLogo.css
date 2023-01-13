@@ -1,7 +1,14 @@
 .home_logo .item{
   height: auto;
-  width: 170px;
+  width: 140px;
+  /* border: 1px solid; */
 }
 .home_logo .item img{
     object-fit: contain;
-}
+
+}  
+    @media screen and (max-width: 700px){
+      .home_logo .item{
+        width: 120px;
+      }
+    }

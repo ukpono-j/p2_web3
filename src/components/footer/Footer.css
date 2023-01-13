@@ -23,17 +23,21 @@
 .footer h4{
     font-family: "Red Rose";
     font-weight: 600;
+    font-size: 15px;
     padding-bottom: 20px;
+    color: #E8EAEB;
 }
 .footer li{
     list-style: none;
     font-family: "Poppins";
     height: 30px;
+    color: #728488;
     font-size: 12px;
 }
 .footer p{
     font-size: 12px;
     font-family: "Poppins";
+    color: #728488;
 }
 .new-send{
     border-radius: 8px;
