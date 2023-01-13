@@ -6,6 +6,7 @@ import CurrencyCalculator from './CurrencyCalculator'
 import Deposite from './Deposite'
 import Hero from './Hero'
 import HomeLogo from './homeLogo_Section/HomeLogo'
+import SecuritySection from './SecuritySection'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <CryptoCarousel />
         <CurrencyCalculator/>
         <Deposite/>
+        <SecuritySection/>
         <HomeLogo/>
         {/* <Charts/> */}
       </div>
