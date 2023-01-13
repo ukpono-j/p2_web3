@@ -34,6 +34,11 @@
 }
 .ss-triangle {
   border: 1px solid #20372a;
+  display: flex;
+  color: #a3f27e;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
 }
 .sss button {
   padding: 10px 29px;

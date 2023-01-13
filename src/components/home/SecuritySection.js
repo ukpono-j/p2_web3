@@ -1,5 +1,9 @@
 import React from 'react'
 import "./SecuritySection.css"
+import {IoIosStats} from "react-icons/io"
+import {MdSecurity} from "react-icons/md"
+import {MdOutlinePayment} from "react-icons/md"
+import {ImSearch} from "react-icons/im"
 
 
 const SecuritySection = () => {
@@ -9,24 +13,24 @@ const SecuritySection = () => {
                 <div className='w-full h-[auto] flex flex-wrap'>
                     <div className=' grid sm:flex'>
                         <div className='md:w-[200px] w-full pb-2 lg:w-full m-1 h-[auto]'>
-                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'></div>
+                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'><IoIosStats/></div>
                             <h4>Valu Performance</h4>
                             <p>It was popularised in the 1960s with the release of letraset sheets containing</p>
                         </div>
                         <div className='md:w-[200px] w-full pb-2 lg:w-full m-1 h-[auto]'>
-                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'></div>
+                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'><MdSecurity/></div>
                             <h4>Strong Security</h4>
                             <p>It was popularised in the 1960s with the release of letraset sheets containing</p>
                         </div>
                     </div>
                     <div className=' grid sm:flex pt-10'>
                         <div className='md:w-[200px] w-full pb-2 lg:w-full m-1 h-[auto]'>
-                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'></div>
+                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'><MdOutlinePayment/></div>
                             <h4>Payment Options</h4>
                             <p>It was popularised in the 1960s with the release of letraset sheets containing</p>
                         </div>
                         <div className='md:w-[200px] w-full pb-2 lg:w-full m-1 h-[auto]'>
-                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'></div>
+                            <div className='w-[50px] h-[50px]  ss-triangle rounded-xl'><ImSearch/></div>
                             <h4>Transparent</h4>
                             <p>It was popularised in the 1960s with the release of letraset sheets containing</p>
                         </div>
