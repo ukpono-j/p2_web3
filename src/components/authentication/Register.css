@@ -5,10 +5,12 @@
     font-size: 24px;
 }
 .Register-form {
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px 17px 30px 17px;
-    background-color: #000207;
-    border: 1px solid rgb(105, 125, 127);
+    /* background-color: #000207; */
+    background-color: #021214;
+    /* background-color: #00050A; */
+    /* border: 1px solid rgb(105, 125, 127); */
 }
 .Register-form h4{
     padding: 10px 0px;

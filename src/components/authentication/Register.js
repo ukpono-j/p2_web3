@@ -7,7 +7,7 @@ import "./Register.css"
 const Register = () => {
     return (
         <div className='h-screen p-4 flex items-center justify-center w-full bg-[#000207] text-white'>
-            <form className='Register-form h-[auto] w-[400px] '>
+            <form className='Register-form h-[auto] w-[370px] '>
                 <h1><Link to="/">Register</Link></h1>
                 <div>
                     <h4>First Name</h4>
