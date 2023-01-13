@@ -1,0 +1,57 @@
+@media screen and (max-width: 1239px){
+    .footer{
+        padding: 0px 100px !important;
+    }
+}
+@media  screen and (max-width: 990px){
+    .footer{
+        padding: 0px 50px !important;
+    }
+}
+@media  screen and (max-width: 700px){
+    .footer{
+        padding: 0px 30px !important;
+    }
+ 
+}
+@media  screen and (max-width: 607px){
+    .footer{
+        padding: 20px 20px !important;
+    }
+}
+
+.footer h4{
+    font-family: "Red Rose";
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.footer li{
+    list-style: none;
+    font-family: "Poppins";
+    height: 30px;
+    font-size: 12px;
+}
+.footer p{
+    font-size: 12px;
+    font-family: "Poppins";
+}
+.new-send{
+    border-radius: 8px;
+    color: #A3F27E;
+    border: 2px solid #A3F27E;
+    font-weight: 700;
+}
+.footer input{
+    padding-left: 10px;
+    font-family: "Poppins";
+    font-size: 12px;
+    border: 2px #011420;
+    background-color: #011420;
+}
+.footer h5{
+    font-family: "Red Rose";
+}
+.footer-logo{
+    font-family: "Red Rose";
+    font-weight: 600;
+}

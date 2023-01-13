@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../footer/Footer'
 // import Charts from '../charts/Charts'
 import Navbar from '../navbar/Navbar'
 import CryptoCarousel from './CryptoCarousel'
@@ -19,6 +20,7 @@ const Home = () => {
         <Deposite/>
         <SecuritySection/>
         <HomeLogo/>
+        <Footer/>
         {/* <Charts/> */}
       </div>
     </div>
