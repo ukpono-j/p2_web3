@@ -1,0 +1,67 @@
+@media screen and (max-width: 1239px) {
+  .sss {
+    padding: 0px 100px !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .sss {
+    padding: 0px 50px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sss {
+    padding: 0px 30px !important;
+  }
+}
+@media screen and (max-width: 607px) {
+  .sss {
+    padding: 0px 20px !important;
+  }
+}
+.sss h4 {
+  color: #fbfdfd;
+  font-family: "Red Rose";
+  padding: 12px 0px;
+  font-size: 19px;
+  /* font-weight: 500; */
+}
+.sss p {
+  color: #556468;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 10px;
+  font-family: "Poppins";
+}
+.ss-triangle {
+  border: 1px solid #20372a;
+}
+.sss button {
+  padding: 10px 29px;
+  margin-top: 26px;
+  border-radius: 10px;
+  background-color: #a3f27e;
+  color: #000;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 13px;
+}
+.sss h3{
+    color: #BAF29F;
+    font-family: "Red Rose";
+    font-size: 44px;
+    line-height: 49px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1016px){
+    .sss h3{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 844px){
+    .sss h3{
+        font-size: 28px;
+        line-height: 33px;
+    }
+}

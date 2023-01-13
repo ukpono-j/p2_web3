@@ -5,7 +5,7 @@ import "./Deposite.css";
 
 const Deposite = () => {
     return (
-        <div className='h-auto max-w-[1420px] m-auto pl-[20px] lg:pl-[170px] lg:pr-[170px] pr-[20px] bg-[#010307] '>
+        <div className='h-auto dddd max-w-[1420px] m-auto pl-[20px] lg:pl-[170px] lg:pr-[170px] pr-[20px] bg-[#010307] '>
             <div className='text-white md:flex grid items-center w-full h-[auto]'>
                 <div className='deposite-text w-full lg:pr-10 '>
                     <h1>Deposite crypto Earn Interest</h1>

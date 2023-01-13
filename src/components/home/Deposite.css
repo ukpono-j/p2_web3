@@ -29,3 +29,25 @@
         line-height: 40px;
     }
 }
+
+@media screen and (max-width: 1239px){
+    .dddd{
+        padding: 0px 100px !important;
+    }
+}
+@media  screen and (max-width: 990px){
+    .dddd{
+        padding: 0px 50px !important;
+    }
+}
+@media  screen and (max-width: 700px){
+    .dddd{
+        padding: 0px 30px !important;
+    }
+ 
+}
+@media  screen and (max-width: 607px){
+    .dddd{
+        padding: 0px 20px !important;
+    }
+}
